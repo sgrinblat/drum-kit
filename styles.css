@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(./img/studio.jpg);
+    background-size: cover;
+}
+
+div {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    padding-top: 40vh;
+    padding-left: 22vh;
+}
+
+.key {
+    border: 4px solid black;
+    border-radius: 5px;
+    margin: 1rem;
+    font-size: 1.5rem;
+    padding: 1rem .5rem;
+    transition: all 0.07s;
+    width: 100px;
+    text-align: center;
+    color: white;
+    background: rgba(0, 0, 0, 0.4);
+    text-shadow: 0 0 5px black;
+   
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: #d25af0;
+    box-shadow: 0 0 10px #d25af0;
+}
+
+kbd {
+    display: block;
+    font-size: 40px;
+    
+}
+
+.thefooter {
+    background-color: rgba(0, 0, 0, 0.6);
+    margin: 5px;
+    padding: 0;
+    width: 100%;
+}
+
+#footer {
+    text-align: center;
+    font-size: 7vh;
+    margin: 5vh;
+    padding: 5vh;
+    color: white
+    /* -webkit-text-fill-color: white;
+    -webkit-text-stroke: 1.5px #d25af0;  */
+}
+
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #d25af0;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+
+.sound {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #d25af0;
+}
