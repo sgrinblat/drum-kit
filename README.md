@@ -20,7 +20,7 @@ I hope you like it!
 
 ### Links
 
-- [Live Site URL](sgrinblat.github.io/drum-kit)
+- [Live Site URL](https://sgrinblat.github.io/drum-kit/)
 
 ## My process
 
